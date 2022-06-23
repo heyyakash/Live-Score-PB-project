@@ -10,21 +10,25 @@ body{
   margin: 0px 0px;
   padding: 5px;
     overflow: hidden;
+    border-radius: 20px;
   background-color: rgb(21, 10, 41);
 }
 
 li{
     float: auto;
+    /* padding-top: 30px; */
 }
 li a {
     display: block;
+
     color: white;
     font-size: 1.7rem;
     font-family: 'Comfortaa', cursive;
     text-align: center;
-    padding: 2px 10px;
     text-decoration: none;
+    padding: 13px 10px;
 }
+
 .scoreboard{
     margin-top: 40px;
     display: flex;
