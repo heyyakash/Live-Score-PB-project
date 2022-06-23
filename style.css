@@ -1,0 +1,49 @@
+body{
+    margin: 0px 0px;
+    background-color: rgb(37, 24, 63);
+}
+
+.bar ul
+{
+  
+  list-style-type: none;
+  margin: 0px 0px;
+  padding: 5px;
+    overflow: hidden;
+  background-color: rgb(21, 10, 41);
+}
+
+li{
+    float: auto;
+}
+li a {
+    display: block;
+    color: white;
+    font-size: 1.7rem;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    padding: 2px 10px;
+    text-decoration: none;
+}
+.scoreboard{
+    margin-top: 40px;
+    display: flex;
+    font-family:'Comfortaa', cursive;
+    justify-content: center;
+    /* border: 3px solid ; */
+}
+.scoreboard table{
+    
+    /* border:2px solid salmon; */
+    padding: 13px;
+}
+.scoreboard td, .scoreboard th{
+    padding:10px;
+    color: azure;
+   text-align: center;
+   font-size: 1.8rem;
+   border-radius: 5px;
+   width: 125px;
+   text-shadow: 2px 2px 5px rgb(61, 78, 71);
+   background-color: rgb(16, 16, 41);
+}
